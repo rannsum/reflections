@@ -1,0 +1,13 @@
+Reflect: Staging Area
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+it's a temporary queue with out having to move or alter files prior to final decision to commit
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+using git diff, will compare the working directory with the staging area to see what changes that have not yet been staged
+using git diff --stage, will compare the stageing area to commit1 so you will see which changes you have in the staging area to yet commit
+vs diff status which will show all changes in the working directory
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+if you have an experiment you want to test out but still have a working version. you can continue to make changes to both branches at the same time and beable to keep concurrent changes seperated per branch type.
